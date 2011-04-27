@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "ohlala_rails_scaffold_templates"
   s.version     = OhlalaRailsScaffoldTemplates::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Swami Atma"]
+  s.email       = ["swami@ohlalaweb.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Rails 3+ scaffold templates}
+  s.description = %q{A ridiculously opinionated set of scaffold templates for Rails 3 and later. Meant to be used for the Ohlàlà! Webdesigns projects but can be customized for any Rails developer's workflow.}
 
   s.rubyforge_project = "ohlala_rails_scaffold_templates"
 
