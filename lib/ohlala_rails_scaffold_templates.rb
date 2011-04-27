@@ -1,0 +1,3 @@
+module OhlalaRailsScaffoldTemplates
+  # Your code goes here...
+end
