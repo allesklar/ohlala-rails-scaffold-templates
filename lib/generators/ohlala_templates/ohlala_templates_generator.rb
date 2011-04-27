@@ -1,7 +1,5 @@
 class OhlalaTemplatesGenerator < Rails::Generators::Base
   
-  namespace "ohlala:templates"
-  
   source_root File.expand_path('../templates', __FILE__)
 
   def install    
