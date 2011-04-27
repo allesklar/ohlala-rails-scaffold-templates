@@ -1,6 +1,6 @@
 class TemplatesGenerator < Rails::Generators::Base
   
-  namespace "ohlala"
+  namespace "ohlala:templates"
   
   source_root File.expand_path('../templates', __FILE__)
 
