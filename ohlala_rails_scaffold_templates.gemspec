@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["swami@ohlalaweb.com"]
   s.homepage    = ""
   s.summary     = %q{Rails 3+ scaffold templates}
-  s.description = %q{A ridiculously opinionated set of scaffold templates for Rails 3 and later. Meant to be used for the Ohlàlà! Webdesigns projects but can be customized for any Rails developer's workflow.}
+  s.description = %q{A ridiculously opinionated set of scaffold templates for Rails 3 and later. Meant to be used for the Ohlàlà! Webdesigns projects but can be customized to any Rails developer's workflow.}
 
   s.rubyforge_project = "ohlala_rails_scaffold_templates"
 

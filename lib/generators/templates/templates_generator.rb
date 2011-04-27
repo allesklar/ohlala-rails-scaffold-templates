@@ -1,5 +1,7 @@
 class TemplatesGenerator < Rails::Generators::Base
   
+  namespace "ohlala"
+  
   source_root File.expand_path('../templates', __FILE__)
 
   def install    
