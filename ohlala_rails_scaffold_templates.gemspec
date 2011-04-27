@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Swami Atma"]
   s.email       = ["swami@ohlalaweb.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/allesklar/ohlala-rails-scaffold-templates"
   s.summary     = %q{Rails 3+ scaffold templates}
   s.description = %q{A ridiculously opinionated set of scaffold templates for Rails 3 and later. Meant to be used for the Ohlàlà! Webdesigns projects but can be customized to any Rails developer's workflow.}
 
