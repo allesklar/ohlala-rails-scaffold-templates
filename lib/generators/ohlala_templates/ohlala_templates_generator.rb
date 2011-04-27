@@ -1,4 +1,4 @@
-class TemplatesGenerator < Rails::Generators::Base
+class OhlalaTemplatesGenerator < Rails::Generators::Base
   
   namespace "ohlala:templates"
   
