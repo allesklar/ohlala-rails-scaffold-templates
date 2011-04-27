@@ -1,0 +1,11 @@
+<%% set_title @<%= singular_table_name %>.title_or_name_goes_here %>
+<%% set_description @<%= singular_table_name %>.description_field_goes_here %>
+
+<h1><%%= @<%= singular_table_name %>.name_or_title_field %></h1>
+
+<%%= raw @<%= singular_table_name %>.body_or_main_text_field %>
+
+<%% if current_user && current_user.admin? %>
+	<hr>
+	<p><nobr><%%= link_to 'Edit this <%= singular_table_name %>', edit_<%= singular_table_name %>_path(@<%= singular_table_name %>), :class => 'css3b-left pill button' %><%%= link_to 'List all <%= plural_table_name %>', <%= plural_table_name %>_path, :class => 'css3b-right pill button' %></nobr></p>
+<%% end %>

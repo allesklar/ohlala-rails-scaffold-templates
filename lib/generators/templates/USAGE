@@ -1,0 +1,6 @@
+Description:
+    Installs customized and customizable scaffold templates in your Rails app
+
+Example:
+    rails generate templates
+    This will copy the templates in lib/templates/

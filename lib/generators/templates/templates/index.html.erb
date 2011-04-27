@@ -1,0 +1,25 @@
+<%%= will_paginate @<%= plural_table_name %> %>
+
+<table>
+	
+  <tr>
+	<% for attribute in attributes -%>
+	<th><%= attribute.human_name %></th>
+	<% end -%>
+  <th>Actions</th>
+  </tr>
+
+	<%% @<%= plural_table_name %>.each do |<%= singular_table_name %>| %>
+		<tr>
+<% for attribute in attributes -%>
+			<td><%%= <%= singular_table_name %>.<%= attribute.name %> %></td>
+<% end -%>
+			<td><nobr><%%= link_to 'View', <%= singular_table_name %>, :class => 'css3b-left pill button' %><%%= link_to 'Edit', edit_<%= singular_table_name %>_path(<%= singular_table_name %>), :class => 'middle pill button' %><%%= link_to 'Delete', <%= singular_table_name %>, :confirm => 'Are you sure?', :method => :delete, :class => 'css3b-right negative pill button' %></nobr></td>
+  	</tr>
+	<%% end %>
+	
+	<tr><td colspan="3"><%%= link_to 'New <%= human_name %>', new_<%= singular_table_name %>_path, :class => 'pill button' %></td></tr>
+	
+</table>
+
+<%%= will_paginate @<%= plural_table_name %> %>
