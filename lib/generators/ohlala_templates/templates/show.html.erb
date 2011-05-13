@@ -6,6 +6,8 @@
 <%%= raw @<%= singular_table_name %>.body_or_main_text_field %>
 
 <%% if current_user && current_user.admin? %>
-	<hr>
-	<p><nobr><%%= link_to 'Edit this <%= singular_table_name %>', edit_<%= singular_table_name %>_path(@<%= singular_table_name %>), :class => 'css3b-left pill button' %><%%= link_to 'List all <%= plural_table_name %>', <%= plural_table_name %>_path, :class => 'css3b-right pill button' %></nobr></p>
+	<%%= content_for :admin_sidebar do %>
+		<p><nobr><%%= link_to 'Edit this <%= singular_table_name %>', edit_<%= singular_table_name %>_path(@<%= singular_table_name %>), :class => 'css3b-left pill button' %><%%= link_to 'List all <%= plural_table_name %>', <%= plural_table_name %>_path, :class => 'css3b-right pill button' %></nobr></p>
+		<hr>
+	<%% end -%>
 <%% end %>

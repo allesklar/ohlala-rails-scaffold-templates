@@ -1,0 +1,43 @@
+== Ohlala Rails Scaffold Templates
+
+These templates were created to fit our custom CMS at {Ohlàlà! Webdesigns}[link:files/actionpack/README_rdoc.html] and are therefore ridiculously opinionated.
+
+There are meant to be used with Rails 3.0 or later and a number of specific gems.
+
+Its philosophy is that it's easier and faster to remove code than it is to add it and therefore the templates generate by default the code for pagination, url slugs, Globalize3 translation, and other features which one might not need for a specific scaffold.
+
+You can fork this gem at github.com to customize the templates to fit your own projects.
+
+This gem can also be used to locate the right directories under which the templates should be placed.
+
+
+== Getting Started
+
+1. Install the gem by adding the following line to your Gemfile:
+
+    gem "ohlala_rails_scaffold_templates", :group => :development
+
+2. Generate the templates which will be used by Rails scaffold generator:
+
+    rails g ohlala_templates
+
+3. You can now create customized scaffolds:
+
+    rails g scaffold resource_name
+
+
+== Problems
+
+Please use the github issues tab to submit
+
+* Bug reports.
+* Improvement suggesitions.
+
+
+== Contributing
+
+We encourage you to contribute to this gem by forking it and submitting pull requests.
+
+== License
+
+Ohlala Rails Scaffold Templates is released under the MIT license.
