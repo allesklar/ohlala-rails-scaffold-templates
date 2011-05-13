@@ -31,7 +31,7 @@ This gem can also be used to locate the right directories under which the templa
 Please use the github issues tab to submit
 
 * Bug reports.
-* Improvement suggesitions.
+* Improvement suggestions.
 
 
 == Contributing
